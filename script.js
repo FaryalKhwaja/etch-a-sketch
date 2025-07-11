@@ -18,7 +18,6 @@ button.addEventListener("click", () => {
     }
 
     container.innerHTML= "";
-    let squareSize = Math.floor(512/ userInput);
     for (let i = 0; i < userInput * userInput; i++) {
     const square = document.createElement("div");
     square.classList.add("square");
