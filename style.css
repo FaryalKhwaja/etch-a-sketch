@@ -9,6 +9,37 @@
 .square {
     width: 32px;
     aspect-ratio: 1/1;
-    border: 0.5px solid black;
+    border: 0.5px solid rgba(0,0,0,0.15);
     box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    margin-top: -30px;
+    background-color: gray;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+    width: 550px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    gap: 10px;
+   
 }
