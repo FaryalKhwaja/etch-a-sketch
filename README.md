@@ -24,7 +24,6 @@ This is a browser-based Etch-a-Sketch drawing game built using HTML CSS and Java
 - CSS3
 - Vanilla JavaScript
 
-## Folder Structure
+## Developing reasons
 
 Developed independently for learning and practice purposes.
-Developer : Faryal Khwaja
