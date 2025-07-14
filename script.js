@@ -37,7 +37,7 @@ window.addEventListener("DOMContentLoaded", () => {
       square.dataset.opacity = "0.3";
       square.style.flex = `0 0 calc(100% / ${userInput})`;
       square.style.aspectRatio = "1 / 1";
-      square.style.border = "0.5px solid black";
+      square.style.border = "0.5px solid rgba(0,0,0,0.15)s";
       container.appendChild(square);
 
       square.addEventListener("mouseover", () => {
