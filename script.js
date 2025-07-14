@@ -8,7 +8,6 @@ window.addEventListener("DOMContentLoaded", () => {
     container.appendChild(square);
 
     square.addEventListener("mouseover", () => {
-      // Only generate a color once
       if (!square.dataset.baseColor) {
         let r = Math.floor(Math.random() * 256);
         let g = Math.floor(Math.random() * 256);
@@ -57,4 +56,9 @@ window.addEventListener("DOMContentLoaded", () => {
       });
     }
   });
+});
+
+let resetButton = document.querySelector(".reset");
+resetButton.addEventListener("click", () => {
+  window.location.reload();
 });
