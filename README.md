@@ -27,3 +27,7 @@ This is a browser-based Etch-a-Sketch drawing game built using HTML CSS and Java
 ## Developing reasons
 
 Developed independently for learning and practice purposes.
+
+## credits
+
+Developer: Faryal Khwaja
